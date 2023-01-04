@@ -2,7 +2,13 @@
 
 <div class="text-center center-div mt-5" id="login">
     <div class="container w-25 border py-5 mt-5">
-        <h3>Welcome to Express Dashboard</h3>
+        <h2>Welcome to Demo Credit</h2>
+        <h8>Demo Credit is a mobile lending app that requires wallet functionality.</h8>
+        <input type="Account Number" class="form-control" placeholder="Account Number" name="Account Number">
+        <input type="Amount" class="form-control" placeholder="Amount" name="Amount">
+        <input type="Pin" class="form-control" placeholder="Enter Pin" name="Enter Pin">
+        
+        <button type="submit" class="btn btn-success rounded-pill">Submit</button>
         <h5><%= locals.user ? user : "User" %></h5>
         <a href="/route/logout">Logout</a>
     </div>

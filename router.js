@@ -33,7 +33,7 @@ router.get('/logout', (req ,res)=>{
             console.log(err);
             res.send("Error")
         }else{
-            res.render('base', { title: "Express", logout : "logout Successfully...!"})
+            res.render('base', { title: "Credit App", logout : "logout Successfully...!"})
         }
     })
 })

@@ -6,11 +6,9 @@
 -This command will install all the dependancy in the project.
 ``` npm install ```
 
-### To gain Access
+### How To gain Access
 -email : "LendSqr@gmail.com",
 -password : "1234"
-
-
 
 ### This project was built with node and express.
 - Still a work in progress
